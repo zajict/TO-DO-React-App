@@ -57,10 +57,10 @@ export const Todos = () => {
             );
         })}
         <div className='check-all'>
-          <div>
+          <div className='to-do-area'>
             <input type='checkbox' checked={isAllCompleted} onChange={() => onChangeIsAllCompleted(todos)}/>
           </div>
-          <div>Complete all tasks</div>
+          <div className='check-all-title'>Complete all tasks</div>
         </div>
     </div>
   )

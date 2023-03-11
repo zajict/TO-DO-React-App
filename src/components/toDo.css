@@ -1,0 +1,15 @@
+.check-all-title{
+    text-transform:uppercase;
+}
+.todo{
+    position: relative;
+    padding-left: 50px;
+}
+.check-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.to-do-area, .check-all-title{
+    margin-bottom: 40px;
+}
